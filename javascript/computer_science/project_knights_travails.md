@@ -21,6 +21,14 @@ You can think of the board as having 2-dimensional coordinates. Your function wo
 
 <div class="lesson-note" markdown="1">
 
+The idea is to use one of the search algorithms - *BFS* and/or *DFS* - to solve this problem. There are multiple approaches to devising a solution, of which using a graph is one of them. Feel free to implement whatever strategy makes sense to you, so long as it produces the expected output. Should you come up with a solution that doesn't use a graph data structure, but solves the problem using one of the search algorithms, then so be it.
+
+However, it is recomended to implement a graph data structure, as that will greatly assist you along your journey of software design. Therefore, if possible, try multiple strategies and approaches (of whice using a graph is one of them). This will allow you to fully appreciate all the ways one problem can be solved, based off the context, resources, etc.
+
+</div>
+
+<div class="lesson-note" markdown="1">
+
 Sometimes *there is more than one fastest path*. Examples of this are shown below. Any answer is correct as long as it follows the rules and gives the shortest possible path.
 
 - `knightMoves([0,0],[3,3]) == [[0,0],[2,1],[3,3]]` or `knightMoves([0,0],[3,3]) == [[0,0],[1,2],[3,3]]`
